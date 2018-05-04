@@ -6,7 +6,7 @@
 composer require mrdavidchz/certificado-sello:dev-master
 ```
 ## Uso
-- Manejo de Archivo .cer
+- Manejo de Archivos .cer
 ```
 	use MrDavidChz\CertificadoSello;
 
@@ -15,13 +15,14 @@ composer require mrdavidchz/certificado-sello:dev-master
 	$cert->decode();
 	$cert->save();
 ```
-- Manejo de Archivo .key
+- Manejo de Archivos .key
 ```
     $key = CertificadoSello::key($keyFile, $password,'C:\OpenSSL\bin\openssl.exe');
     $key->decode();
     $key->save();
 ```
 - Validar si los archivo CER y KEY son Pareja
+En caso que haya algun error agregar la ruta del OpenSsl
 ```
    CertificadoSello::matchCerKey($cerFile.'.pem',$keyFile.'.pem','C:\OpenSSL\bin\openssl.exe');
 ```
