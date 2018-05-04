@@ -1,9 +1,9 @@
 <?php
 
-namespace MrDavidChz\CertificadoSello;
+namespace MrDavidChz\Sat;
 
-use MrDavidChz\CertificadoSello\Lib\CerLib;
-use MrDavidChz\CertificadoSello\Lib\KeyLib;
+use MrDavidChz\Sat\Lib\CerLib;
+use MrDavidChz\Sat\Lib\KeyLib;
 use Exception;
 use SplFileInfo;
 class CertificadoSello

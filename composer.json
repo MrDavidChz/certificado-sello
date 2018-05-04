@@ -21,12 +21,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"MrDavidChz\\CertificadoSello\\": "src"
+			"MrDavidChz\\Sat\\": "src"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"MrDavidChz\\CertificadoSello\\Tests\\": "tests"
+			"MrDavidChz\\Sat\\Tests\\": "tests"
 		}
   }
 }

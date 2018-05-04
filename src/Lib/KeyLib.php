@@ -1,7 +1,7 @@
 <?php
 
-namespace Kinedu\CfdiCertificate\Lib;
-
+namespace MrDavidChz\Sat\Lib;
+use SplFileInfo;
 class KeyLib
 {
     /**
