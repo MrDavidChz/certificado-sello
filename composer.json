@@ -1,0 +1,32 @@
+{
+    "name": "mrdavidchz/certificado-sello",
+    "description": "Librería para el manejo de Certificados CSD (.CER - .KEY) y Generar el Sello,Numero de Certificado para la emisión de Facturas CFDI",
+	"homepage": "https://github.com/MrDavidChz/certificado-sello",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David de la Cruz",
+            "email": "david.delacruz921@gmail.com",
+			"role": "Full Stack Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+    "php" : ">=7.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit" : "~4.1.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"MrDavidChz\\CertificadoSello\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"MrDavidChz\\CertificadoSello\\Tests\\": "tests"
+		}
+  }
+}
